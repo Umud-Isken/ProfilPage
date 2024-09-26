@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body style="background-color: rgb(28, 28, 28);">
+    
+    <div style="display: flex; align-items:center; justify-content:space-between;" class="container">
+        
+     <div style="display: flex;" class="hh">
+        <div style="background-color: greenyellow; width:5px;height:30px" class="employeeDetails">
+    
+        </div>
+        <h3 style="color: white; margin:10px;">Employee Details</h3>
+    </div>
+
+       <div class="buttons">
+        <select name="" id="">
+            <option value="">This year</option>
+            <option value="">This Week</option>
+            <option value="">This Day</option>
+        </select>
+        <button>
+            <i style="color: black;" class="fa-solid fa-download"></i>  Dowload Info
+        </button>
+       </div>
+    </div>
+
+    <div  style="display: flex; align-items:center; justify-content:space-between; width:400px; margin-top:40px;" class="SecondGrade">
+        <div class="foto">
+            <img class="PagePhoto" src="http://5.180.81.184:1890/static/media/user-1.479b494978354b339dab.jpg" alt="">
+           </div>
+           <div class="namegrade">
+            <h2 style="color:white; margin-bottom:150px; width:100%; margin-left:40px;">
+                Name Surname
+            </h2>
+        </div>
+        
+    </div>
+
+    <div style="display: flex; align-items:center;justify-content:space-between;" class="qwert">
+        <div style="color: white; display:flex;" class="RoleDetails">
+            <label for="">Role</label>
+            <h5>Admin</h5>
+        </div>
+        <div style="color: white;" class="PhoneNumber">
+            <label for="">Phone Number</label>
+            <h5>+994 XX-XXX-XX-XX</h5>
+        </div>
+        <div style="color: white;" class="FINcode">
+            <label for="">FIN-code</label>
+            <h5>XXXXXXX</h5>
+        </div>
+        <div style="color: white;" class="Email">
+            <label for="">Email</label>
+            <h5>example@gmail.com</h5>
+        </div>
+    </div>
+
+    <div id="map"></div>
+
+
+
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hh {
+    display: flex;
+    align-items: center;
+}
+
+.employeeDetails {
+    background-color: greenyellow;
+    width: 5px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+h3 {
+    color: white;
+    margin-left: 10px;
+    font-size: 1.5em;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+select {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #444;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+select:hover {
+    background-color: #555;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: yellow;
+    transform: scale(1.05);
+}
+
+.PagePhoto {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+}
+
+.SecondGrade {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.qwert {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.RoleDetails,
+.PhoneNumber,
+.FINcode,
+.Email {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    flex: 1;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+h5 {
+    margin: 0;
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .qwert {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+#map {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
